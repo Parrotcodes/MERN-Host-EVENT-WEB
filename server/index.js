@@ -18,11 +18,11 @@ mongoose
     console.log("db connection failed: " + error.message);
   });
 
-app.get("/", (req, res) => {
+app.get("https://mern-host-event-web.vercel.app", (req, res) => {
   res.send({ user: "Welcome mr.rakesh" });
 });
 
-app.post("/newuser", async (req, res) => {
+app.post("https://mern-host-event-web.vercel.app/newuser", async (req, res) => {
   const user = new userModel(req.body);
   const newUser = await user.save();
 
