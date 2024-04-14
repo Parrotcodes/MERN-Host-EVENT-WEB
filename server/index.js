@@ -18,7 +18,7 @@ mongoose
     console.log("db connection failed: " + error.message);
   });
 
-app.get("https://mern-host-event-web.vercel.app", (req, res) => {
+app.get("https://mern-host-event-web.vercel.app/", (req, res) => {
   res.send({ user: "Welcome mr.rakesh" });
 });
 
