@@ -1,0 +1,58 @@
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Register form Style Code */
+.registerForm {
+  margin-top: 20%;
+}
+@media (max-width: 575.98px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dee2e6;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table-responsive > .table {
+    margin-bottom: 0;
+  }
+
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+}
+
+.input-box {
+  border: none;
+  margin: 10px;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.61);
+}
+.btn-submit {
+  background-color: rgba(25, 25, 225, 0.664);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+#contact_success {
+  background-color: rgb(143, 235, 145);
+  color: green;
+  border-radius: 10px;
+}
